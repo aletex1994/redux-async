@@ -4,9 +4,6 @@ import { useSelector } from "react-redux";
 
 export const FavList = () => {
  const favouriteJokes = useSelector(favJokes);
- useEffect(() => {
-  console.log(favouriteJokes);
- });
 
  return (
   <div>
